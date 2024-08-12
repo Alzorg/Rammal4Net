@@ -1,0 +1,243 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Rammal Net</title>
+		<link rel="icon" type="image/x-icon" href="images/RammalNetLogo.png">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="landing is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+					
+					
+						<button class="profiled" onclick="pageProfile()"><i class="fa fa-user-edit"></i>Profile</button>
+						
+						<nav id="nav">
+							
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="howAreWe.html">Who we are</a></li>
+											<li><a href="Shops.html">Shop</a></li>
+											<li><button  onclick="document.getElementById('id01').style.display='block'" class="SingUpButton" style="width:auto;"> 
+												<i class="fa fa-user-plus"></i>Sign Up</button>
+												<div id="id01" class="modal">
+													 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+														 <form class="modal-content" action="">
+														 <div class="container">
+															 <h1>Sign Up</h1>
+															 <p>Please fill in this form to create an account.</p>
+														<hr>
+														<label for="Name"><b>Full Name</b></label>
+                                                   		 <input type="text" placeholder="Enter your name" name="Name" required>
+														<label for="email"><b>Email</b></label>
+														<input type="text" placeholder="Enter Email" name="email" required>
+														
+														<label for="psw"><b>Password</b></label>
+														<input type="password" placeholder="Enter Password" name="psw" required>
+														
+														<label for="psw-repeat"><b>Repeat Password</b></label>
+														<input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+										
+														
+														<div class="clearfix">
+															<button type="button" onclick="document.getElementById('id01')" class="cancelbtn">Cancel</button>
+															<button type="submit" class="SingUpButton">Sign Up</button>
+														</div>
+													</div>
+											</form>
+											</div>
+										</li>
+											<li>
+												<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;" class="SingUpButton"><i class="fa fa-user-check" ></i>Login</button>
+
+                                                        <div id="id02" class="modal">
+                                                        
+                                                        <form class="modal-content animate" action="" method="post">
+                                                            <div class="imgcontainer">
+                                                           
+                                                            </div>
+
+                                                            <div class="container">
+                                                            <label for="uname"><b>Username</b></label>
+                                                            <input type="text" placeholder="Enter Username" name="uname" required>
+
+                                                            <label for="psw"><b>Password</b></label>
+                                                            <input type="password" placeholder="Enter Password" name="psw" required>
+                                                                
+                                                            <button type="submit" class="SingUpButton">Login</button>
+                                                           
+                                                            </div>
+
+                                                            <div class="container" style="background-color:#f1f1f1">
+                                                            <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn ">Cancel</button>
+                                                            <span class="psw" style=" color: rgb(117, 86, 86);">Forgot <a href="#">password?</a></span>
+                                                            </div>
+                                                        </form>
+                                                        </div>
+
+											</li>
+											
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Banner -->
+					<section id="banner">
+						
+						<div class="inner">
+							
+							<h2>Rammal Net</h2>
+							<p id="lower">Welcome to our new website! If you are looking for reliable and efficient <br>
+								internet installation, you have come to the right place.<br>
+								 We are proud to provide our specialized services in the field <br>
+								 of Internet installation, as we strive to meet your needs and provide <br>
+								  an excellent user experience for you and your business.</p>
+								  
+							<ul class="actions special" style="z-index: 2; position: absolute;">
+								<li><button onclick="document.getElementById('id03').style.display='block'" style="width:auto;  " class="contatColor"> Contact us </button>
+									
+									<div id="id03" class="modal">
+                                                        
+										<form class="modal-content animate" action=""  method="post" >
+											<div class="imgcontainer">
+										   
+											</div>
+
+											<div class="container">
+												<label for="fname">First Name</label>
+												<input type="text" id="fname" name="firstname" placeholder="Your name..">
+											
+												<label for="lname">Last Name</label>
+												<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+											
+												<label for="country">Country</label>
+												<select id="country" name="country">
+												  <option value="Nabatieh">Nabatieh</option>
+												  <option value="Beirut">Beirut</option>
+												  <option value="Tripoli">Tripoli</option>
+												  <option value="Sour">Sour</option>
+												  <option value="Baalbek">Baalbek</option>
+												</select>
+											
+												<label for="subject">Subject</label>
+												<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+											<button type="submit" class="SingUpButton">Send</button>
+										   
+											</div>
+
+											<div class="container" style="background-color:#f1f1f1">
+											</div>
+										</form>
+										</div>
+									
+								 </li>
+							</ul>
+						</div>
+						
+						<a href="#one"  class="more scrolly" style="z-index: 1; position: absolute;">Learn More</a>
+						
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style1 special">
+						<div class="inner">
+							
+								<h2>Our Services</h2>
+							
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper alt style2">
+						<section class="spotlight">
+							<div class="image"><img src="https://img.freepik.com/free-photo/wifi-router-table-smart-connection_53876-96331.jpg?t=st=1723469055~exp=1723472655~hmac=6a25567cb5be73ffa4630bdf5ec9fde2f240eda8f1564b64cc317a33a96660bc&w=996" alt="Rawter" /></div><div class="content">
+								<h2>Installing Internet networks</h2>
+								<p>Installing Internet networks via our servers and DSL servers on landlines for homes, institutions and companies</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="https://img.freepik.com/free-photo/young-man-engineer-making-program-analyses_1303-20402.jpg" alt="ENG" /></div><div class="content">
+								<h2>Maintenance service</h2>
+								
+								<p>maintenance of all local Internet networks, servers and stations</p>
+							</div>
+						</section>
+						<section class="spotlight">
+							<div class="image"><img src="https://img.freepik.com/free-photo/data-server-racks-hub-room-with-big-data-computer-center-blue-interior-hosting-storage-hardware_90220-1033.jpg?t=st=1723468904~exp=1723472504~hmac=42fe907780884a3d1b6a352ab3340c347a5bb620628232acf364a8a71f4c7b6b&w=360" alt="Server" /></div><div class="content">
+								<h2>Creating all types of servers</h2>
+								
+								<p>Creating all types of servers to provide services to users over the network, such as hosting websites, storing data, or running applications</p>
+							</div>
+						</section>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style3 special">
+						<div class="inner">
+							<header class="major">
+								<h2>An overview of some of the projects we've worked on</h2>
+								
+							</header>
+							<ul class="features">
+								<li class="icon fa-paper-plane">
+									<h3>A large Internet distribution station project</h3>
+									<p>Providing Internet service to customers in many areas, through a network of distributed devices, cables, and stations</p>
+								</li>
+								<li class="icon solid fa-laptop">
+									<h3>Web server project</h3>
+									<p>A web server is a server that receives, processes, and sends web requests from clients, such as browsers or applications.</p>
+								</li>
+								<li class="icon solid fa-code">
+									<h3>Programming surveillance cameras</h3>
+								 <p>Configure and configure surveillance cameras and associated devices, such as a DVR, NVR, or network, to achieve the desired objectives of the surveillance system</p>
+								 
+								</li>
+								
+							</ul>
+						</div>
+					</section>
+
+				
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="https://www.tiktok.com/@rammalo_a?_t=8dn8g5Xoena&_r=1" class="icon brands fa-tiktok"><span class="label">Tiktok</span></a></li>
+							<li><a href="https://www.facebook.com/rammal.abbass/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/ramalo_abbass/?hl=ar" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="mailto:rammalabbass.ar@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="https://www.linkedin.com/in/abbass-rammal-b480b01b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"  class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Rammal Net</li><li>Design: <a href="https://abbas.artiuo.com/">Abbass</a></li>
+						</ul>
+						<img style="width: 20%; " src="images/RammalNetLogo.png"/>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
