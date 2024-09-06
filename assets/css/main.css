@@ -4420,3 +4420,9 @@ input[type=submit]:hover {
 
 
 /** end testimonial section **/
+.flex-container {
+	display: flex;
+	flex-wrap: nowrap;
+	
+  }
+  
